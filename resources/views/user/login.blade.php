@@ -5,7 +5,7 @@
         <p class="mb-4">Log into your account to post gigs</p>
       </header>
   
-      <form method="POST" action="/user/login">
+      <form method="POST" action="/user/authenticate">
         @csrf
   
         <div class="mb-6">

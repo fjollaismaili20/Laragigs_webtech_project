@@ -61,3 +61,6 @@ Route::post('/logout', [UserController::class, 'logout']);
 
 //Show user login
 Route::get('/login', [UserController::class, 'login']);
+
+//Login User
+Route::post('/users/authenticate', [UserController::class, 'authenticate']);
