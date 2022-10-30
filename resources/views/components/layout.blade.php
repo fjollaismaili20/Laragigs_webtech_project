@@ -40,6 +40,8 @@
             <li>
               <a href="/listings/manage" class="hover:text-laravel"><i class="fa-solid fa-gear"></i> Manage Listings</a>
             </li>
+
+            
             <li>
               <form class="inline" method="POST" action="/logout">
                 @csrf
@@ -49,6 +51,12 @@
               </form>
             </li>
             @else
+            <li>
+              <a href="/contact-form" class="hover:text-laravel"><i class="fa-solid fa-envelope"></i> Contact Us</a>
+              <li>
+                <a href="/about" class="hover:text-laravel"><i class="fa-solid fa-globe
+                  "></i> About Us</a>
+            </li>
             <li>
               <a href="/register" class="hover:text-laravel"><i class="fa-solid fa-user-plus"></i> Register</a>
             </li>
